@@ -1,0 +1,11 @@
+---
+title: "About Me"
+output: html_document
+date: "2024-08-30"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 
