@@ -1,3 +1,31 @@
+.navbar {
+    background-color: #5a2d79; /* Dark Purple background */
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .nav-button {
+    background-color: #9b5fc0; /* Light Purple button */
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .nav-button:hover {
+    background-color: #7d4c99; /* Darker purple on hover */
+  }
+  
+
+
+
+
+
 
 body {
     background-color: white;
