@@ -12,3 +12,4 @@ function loadNavbar() {
       });
   }
   
+  window.onload = loadNavbar;
