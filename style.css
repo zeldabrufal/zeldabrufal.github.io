@@ -1,3 +1,139 @@
 * {
   font-family: 'Aptos', sans-serif;
 }
+
+
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+
+
+.header {
+  background-color: #d3d3d3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+ 
+}
+
+
+
+.logo {
+  display: flex;
+  width: 40px;
+  height: auto;
+  padding: 25px
+  
+}
+
+
+h1 {
+  color: #4E2780;
+  display: flex;
+  font-size: 40px;
+  margin: 0; 
+  position: relative;
+}
+
+a {
+  color: #4E2780;
+  
+  list-style-type: none;
+  text-decoration: none;
+  flex: 1;
+ 
+  display: flex;
+
+  justify-content: flex-end;
+  margin: 5px; 
+  margin-right: 10px;
+  font-size: 20px; 
+  font-weight: bold;
+  
+  
+
+}
+
+
+.nav-ul,
+.side-ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between
+}
+
+.side-ul {
+  display: flex;
+  flex-direction: column;
+  padding: 20px ;
+  color: #d3d3d3;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sideli {
+  padding-top: 30px;
+}
+
+li {
+  flex: 1
+}
+
+
+
+.container {
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(52, 52, 55);
+  padding: 30PX;
+  justify-content: space-between;
+  height: 100%;
+
+}
+
+
+
+
+
+
+.content {
+  color: rgb(52, 52, 55);
+  background-color: #a99eb8;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex:1
+
+}
+
+.content img {
+  width: 100%; /* Ensure the image stretches across the container */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: cover; /* Or 'contain' if you prefer no cropping */
+}
+
+.main-text {
+  font-weight: bold;
+  padding: 60px
+}
