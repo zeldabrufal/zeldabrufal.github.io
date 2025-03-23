@@ -2,25 +2,10 @@
   font-family: 'Aptos', sans-serif;
 }
 
-
-
-
-html, body {
-  height: 100%;
+body {
   margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
+  min-height: 100vh;
 }
-
-.body {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  min-height: 100vh; 
-}
-
-
 
 
 .header {
@@ -31,8 +16,6 @@ html, body {
   padding: 5px 30px;
  
 }
-
-
 
 .logo {
   display: flex;
@@ -53,14 +36,10 @@ h1 {
 
 a {
   color: #4E2780;
-  
   list-style-type: none;
   text-decoration: none;
   flex: 1;
- 
   display: flex;
-
-  justify-content: flex-end;
   margin: 5px; 
   margin-right: 10px;
   font-size: 20px; 
@@ -71,36 +50,38 @@ a {
 }
 
 
-.nav-ul,
-.side-ul {
+.nav-ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between
 }
 
+
+
 .side-ul {
+  list-style-type: none;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   padding: 20px ;
   color: #d3d3d3;
   font-size: 18px;
   font-weight: bold;
+  height: 100%;
+  flex: 1;
+  
 }
 
 .sideli {
   padding-top: 30px;
 }
 
-li {
-  flex: 1
-}
-
 
 
 .container {
   display: flex;
-  flex-grow: 1;
-  height: auto;
+  min-height: 100vh;
+  height: 100%;
 }
 
 .sidebar {
@@ -108,8 +89,10 @@ li {
   flex-direction: column;
   background-color: rgb(52, 52, 55);
   padding: 30PX;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 100%;
+  flex-grow: 1;
+  min-height: 100vh;
 
 }
 
@@ -137,22 +120,26 @@ li {
 
 .picdes {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   
 }
 
 
 .content-text {
   display: flex;
-  flex: 1
+  flex: 0 0 1
 }
 
 .me-cont {
   display: flex;
-  flex:1;
-  width: fit-content;
+  justify-content: center;
+  padding: 70px;
+  height: auto;
+  flex: 0 0 1; 
 }
 
 .me-pic {
-  width: 40px;
+  width: 100%;
   height: auto;
 }
