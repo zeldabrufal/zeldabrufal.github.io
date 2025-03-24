@@ -14,6 +14,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 5px 30px;
+  margin: 0;
  
 }
 
@@ -50,6 +51,11 @@ a {
 }
 
 
+.picbanner {
+  padding: 0px;
+  margin-bottom: 0;
+}
+
 .nav-ul {
   list-style-type: none;
   display: flex;
@@ -82,6 +88,9 @@ a {
   display: flex;
   min-height: 100vh;
   height: 100%;
+  align-items: stretch;
+  flex-grow: 1;
+  margin: 0;
 }
 
 .sidebar {
@@ -103,14 +112,15 @@ a {
   background-color: #a99eb8;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: auto;
   flex-grow: 1;
 }
 
 .img {
   width: 100%; /* Ensure the image stretches across the container */
-  height: 70px; /* Maintain the aspect ratio */
-  object-fit: cover; /* Or 'contain' if you prefer no cropping */
+  height: 100px; /* Maintain the aspect ratio */
+  object-fit: cover;
+  margin: 0;
 }
 
 .main-text {
@@ -128,7 +138,8 @@ a {
 
 .content-text {
   display: flex;
-  flex: 0 0 1
+  flex: 0 0 1;
+  height: auto;
 }
 
 .me-cont {
@@ -136,10 +147,19 @@ a {
   justify-content: center;
   padding: 70px;
   height: auto;
-  flex: 0 0 1; 
+  flex: 0 0 1 
 }
 
 .me-pic {
   width: 100%;
   height: auto;
+}
+
+
+.footer {
+  background-color: #d3d3d3;
+  margin: 0;
+  padding: 0px;
+  align-items: center;
+  text-align: center;
 }
