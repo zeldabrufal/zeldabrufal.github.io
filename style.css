@@ -109,6 +109,7 @@ a {
   height: 100px; /* Maintain the aspect ratio */
   object-fit: cover;
   margin: 0;
+  display: block;
 }
 
 .main-text {
@@ -131,15 +132,13 @@ a {
 }
 
 .me-cont {
-  display: flex;
-  justify-content: center;
   padding: 70px;
   height: auto;
 }
 
-.me-pic {
+.me_pic {
  height: auto;
- width: fit-content;
+ max-width: 200px;
 }
 
 
