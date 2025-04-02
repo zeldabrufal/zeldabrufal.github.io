@@ -133,6 +133,7 @@ a {
 
 .content-text {
   display: flex;
+  flex-direction: column;
   height: auto;
   background-color: #897a9c;
 }
