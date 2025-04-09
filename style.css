@@ -59,6 +59,15 @@ li {
   box-sizing: border-box;
 }
 
+.project-text {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  border: 20px solid pink;
+  box-sizing: border-box;
+
+}
+
 .main-text {
   border-bottom: 10px solid pink;
 }
