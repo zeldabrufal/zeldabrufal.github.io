@@ -1,8 +1,64 @@
 body {
   background-color: pink;
+  display: flex;
+  flex-direction: column;
 }
 
 * {
   font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  color: #4E2780;
+}
 
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+  
+
+}
+
+
+.image-container{
+  display: flex;
+}
+
+.logo{
+  width: 100px;
+  height: auto;
+}
+.nav-ul {
+  display: flex;
+}
+
+li {
+  padding: 5px;
+  color: #4E2780;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.me_pic {
+  width: 200px;
+  height: auto;
+  border: 20px solid pink;
+  box-sizing: border-box;
+}
+
+.content-text {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  border: 20px solid pink;
+  box-sizing: border-box;
+}
+
+.main-text {
+  border-bottom: 10px solid pink;
 }
